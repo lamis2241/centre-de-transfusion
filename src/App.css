@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 2px solid #333; /* rend les lignes plus visibles */
+  padding: 12px 16px;
+  text-align: center;
+}
+
+th {
+  background-color: #c62828;
+  color: white;
+  font-size: 18px;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
